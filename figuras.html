@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras geométricas
+        </h1>
+        <p>Este es el primer taller del curso práctico de JavaScript</p>
+    </header>
+    <main>
+        <section>
+            <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <form action="">
+                <label for="InputCuadrado">
+                    <span>Cuánto mide cada lado de tu cuadrado:</span>
+                    <input id="InputCuadrado" type="number">
+                </label>
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular el área
+                </button>
+            </form>
+            <h2>Calcula el área y perímetro de un tríangulo Isóseles</h2>
+            <form action="">
+                <label for="InputLado1">
+                    <span>Cuánto mide el lado 1</span>
+                    <input id="InputLado1" type="number">
+                </label>
+                <label for="InputLado2">
+                    <span>Cuánto mide el lado 2</span>
+                    <input id="InputLado2" type="number">
+                </label>
+                <label for="InputBase">
+                    <span>Cuánto mide la base</span>
+                    <input id="InputBase" type="number">
+                </label>
+                <button type="button" onclick="calcularPerimetroTriangulo()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaTrianguloIsoseles()">
+                    Calcular el área
+                </button>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="./figuras.js"></script>    
+</body>
+</html>
